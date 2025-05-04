@@ -22,7 +22,6 @@ This is a basic weather app built using **HTML, CSS, and JavaScript**. It shows 
 - HTML
 - CSS
 - JavaScript (Vanilla)
-- [Visual Crossing Weather API](https://www.visualcrossing.com/)
 
 ---
 
