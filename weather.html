@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vim-app</title>
+    <link rel="stylesheet" href="weather.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="heading">
+          <h1 class="City"></h1>
+          <h1>Weather</h1>
+        </div>
+        <div class="search-div">
+          <input type="text" class="weatherCity" />
+          <button class="search-btn">search</button>
+        </div>
+        <div class="flexingData">
+          <div class="temp">
+            <img
+              src="./img/temperature.svg"
+              alt="temp icon"
+              style="width: 50px"
+            />
+            <h1 class="tempH1"></h1>
+          </div>
+          <div class="humid">
+            <img
+              src="./img/humidity.svg"
+              alt="humidity icon"
+              style="width: 50px"
+            />
+
+            <h1 class="humidH1"></h1>
+          </div>
+          <div class="latitude">
+            <img
+              src="./img/latitude.svg"
+              alt="latitude icon"
+              style="width: 50px"
+            />
+            <h1 class="latitudeH1"></h1>
+          </div>
+          <div class="longitude">
+            <img
+              src="./img/longitude.svg"
+              alt="longitude icon"
+              style="width: 50px"
+            />
+            <h1 class="longitudeH1"></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="weather.js"></script>
